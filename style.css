@@ -52,3 +52,85 @@ header {
 .header-icons{
     display: inline-block;
 }
+
+/* input section */
+
+.input-container {
+    margin-top: 157px;
+}
+
+.search-box input {
+    width: 100%;
+    height: 87px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 62px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding-top: 18px;
+}
+
+.search-box input::placeholder {
+    padding-left: 74px;
+    font-size: 32px;
+}
+
+.input-search-icon img {
+    position: absolute;
+    top: 33px;
+    left: 30px;
+}
+
+.sliders-horizontal img {
+    position: absolute;
+    top: 32px;
+    left: 641px;
+}
+
+.search-box h2 {
+    position: absolute;
+    font-size: 32px;
+    top: 25px;
+    left: 700px;
+}
+
+.search-box h2::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 87px;
+    right: 100px;
+    top: -25px;
+    background-color: rgba(37, 49, 76, 1);
+}
+
+.angle-down {
+    position: absolute;
+    top: 39px;
+    left: 820px;
+}
+
+.right-search img {
+    position: absolute;
+    top: 29px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.right-search::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 87px;
+    right: 110px;
+    bottom: 0px;
+    background-color: rgba(37, 49, 76, 1);
+}
